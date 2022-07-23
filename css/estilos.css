@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .card {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 1rem;
+  width: 322px;
+  height: 500px;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+}
+body .card .first_section {
+  height: 60%;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  overflow: hidden;
+}
+body .card .first_section img {
+  width: 100%;
+}
+body .card .second_section {
+  height: 40%;
+  text-align: center;
+}
+body .card .second_section h1 {
+  padding: 1.5rem 0.5rem 1rem 0.5rem;
+  color: hsl(218deg, 44%, 22%);
+  font-size: 1.5em;
+  font-weight: 700;
+}
+body .card .second_section p {
+  color: hsl(220deg, 15%, 55%);
+  padding: 0 1.5rem;
+}
+
+/*# sourceMappingURL=estilos.css.map */
